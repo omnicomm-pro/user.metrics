@@ -28,8 +28,6 @@ if(CComponentEngine::parseComponentPath('/', $profileTemplates, $arVars) == 'pro
 
     $userId = (int)$arVars["USER_ID"];
 
-    
-
     $script = "<script>
         BX.ready(function() {
             Buttons.createArea($userId);
