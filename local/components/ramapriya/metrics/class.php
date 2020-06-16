@@ -73,7 +73,6 @@ class UserMetricsComponent extends CBitrixComponent {
             ],
             'filter' => [
                 'ASSIGNED_BY_ID' => $userId,
-                // '>=DATE_CREATE' => $this->getDate(),
                 'IS_WORK' => true
             ],
             'select' => [
