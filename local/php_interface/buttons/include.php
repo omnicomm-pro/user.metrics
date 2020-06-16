@@ -42,11 +42,6 @@ if(CComponentEngine::parseComponentPath('/', $profileTemplates, $arVars) == 'pro
     $currentUser = (int)$USER->GetID();
 
     CJSCore::Init(['buttons', 'SidePanel']);
-    Asset::getInstance()->addString($script);
-
-    // if($USER->IsAdmin() !== false || $currentUser == 4288) {
-    //     CJSCore::Init(['buttons', 'SidePanel']);
-    //     Asset::getInstance()->addString($script);
-    // }        
+    Asset::getInstance()->addString($script);    
 
 }
